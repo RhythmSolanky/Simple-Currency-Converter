@@ -1,0 +1,96 @@
+body {
+    font-family: "League Gothic", sans-serif;
+    background-color: #D3D6DB;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #303841;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    text-align: center; /* Center align all text */
+    margin-bottom: 20px;
+  }
+  .container h1{
+    color: #fffdfd;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin: 15px;
+  }
+  .container label{
+    color: #EEEEEE;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .input-container {
+    margin: 10px auto; /* Center the input container */
+    max-width: 500px; /* Limit the width of the input container */
+    color: #64CCC5;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 10px;
+        margin-bottom: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #BE3144;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  button:hover {
+    background-color: #490f17;
+  }
+  
+  #result {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  @media only screen and (max-width: 600px) {
+    .container {
+      max-width: 100%; 
+    }
+    .container h1{
+        color: #fffdfd;
+        font-size: 2rem;
+        font-weight: 500;
+        margin: 15px;
+    }
+    .container label{
+        color: #EEEEEE;
+        font-size: 1rem;
+        font-weight: 500;
+      }
+      input[type="number"] {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        padding: 10px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        /* border: 2px solid #F95959; */
+        border-radius: 3px;
+        box-sizing: border-box;
+      }
+  }

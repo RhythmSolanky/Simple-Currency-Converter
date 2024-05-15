@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currency Converter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Currency Converter</h1>
+    <div class="input-container">
+      <label for="from">From:</label>
+      <select id="from">
+        <option value="INR">Indian Rupee (INR) 🇮🇳</option>
+        <option value="USD">US Dollar (USD) 🇺🇸</option>
+        <option value="CNY">Chinese Yuan (CNY) 🇨🇳</option>
+        <option value="AED">UAE Dirham (AED) 🇦🇪</option>
+        <option value="EUR">Euro (EUR) 🇪🇺</option>
+        <option value="CAD">Canadian Dollar (CAD) 🇨🇦</option>
+        <option value="GBP">British Pound (GBP) 🇬🇧</option>
+        <option value="JPY">Japanese Yen (JPY) 🇯🇵</option>
+        <option value="AUD">Australian Dollar (AUD) 🇦🇺</option>
+        <option value="NZD">New Zealand Dollar (NZD) 🇳🇿</option>
+      </select>
+    </div>
+    <div class="input-container">
+      <label for="to">To:</label>
+      <select id="to">
+        <option value="INR">Indian Rupee (INR) 🇮🇳</option>
+        <option value="USD">US Dollar (USD) 🇺🇸</option>
+        <option value="CNY">Chinese Yuan (CNY) 🇨🇳</option>
+        <option value="AED">UAE Dirham (AED) 🇦🇪</option>
+        <option value="EUR">Euro (EUR) 🇪🇺</option>
+        <option value="CAD">Canadian Dollar (CAD) 🇨🇦</option>
+        <option value="GBP">British Pound (GBP) 🇬🇧</option>
+        <option value="JPY">Japanese Yen (JPY) 🇯🇵</option>
+        <option value="AUD">Australian Dollar (AUD) 🇦🇺</option>
+        <option value="NZD">New Zealand Dollar (NZD) 🇳🇿</option>
+      </select>
+    </div>
+    <div class="input-container">
+      <label for="amount">Amount:</label>
+      <input type="number" id="amount" placeholder="Enter amount">
+    </div>
+    <button id="convert-btn">Convert</button>
+    <div id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
